@@ -20,9 +20,13 @@ $('#tinytabs').tinytabs({type: 'ajax', ajaxdiv: 'window', transition: 'fade'});
 Options:
 
 type: 'inline', // options: inline, ajax
+
 ajaxdiv: 'window', // only define in case of ajax
+
 transition: 'none', // options: none, fade
+
 tabclass: 'tinytabs', // change to your liking
+
 contentclass: 'tinycontent' // change to your liking
 
 ========
