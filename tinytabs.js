@@ -85,11 +85,8 @@
 			}
 			
 			
-			
-			
 			$(this).addClass('current');
-			
-			
+		
 		});
 		
 		

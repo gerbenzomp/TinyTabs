@@ -1,20 +1,12 @@
-@charset "UTF-8";
-/* CSS Document */
-
-body{
-font-family: Helvetica, arial, sans-serif;
-font-size: 13px;	
-}
+/* ----- Tabs css ----- */
 
 .tabs{
-width: 150px;
-
-list-style-type: none;
-
-padding-bottom: 15px;
-padding-left: 25px;
-float: left;
-margin: 0;
+	width: 150px;
+	list-style-type: none;
+	padding-bottom: 15px;
+	padding-left: 25px;
+	float: left;
+	margin: 0;
 }
 
 .tabs li:last-child{
@@ -22,29 +14,48 @@ margin: 0;
 }
 
 .content{
-width: 400px;
-margin-left: 174px;	
-border: 1px solid #CCC;
-min-height: 400px;
-padding: 20px;
+	width: 400px;
+	margin-left: 174px;	
+	border: 1px solid #CCC;
+	min-height: 400px;
+	padding: 20px;
+	background-color: white;
 }
 
 .tinytabs{
-display: block;
-padding: 10px;
-border: 1px solid #CCC;	
-background-color: #EEE;
-border-bottom: 0;
-
+	display: block;
+	padding: 10px;
+	border: 1px solid #CCC;	
+	background-color: #EEE;
+	border-bottom: 0;
 }
+
 
 .current{
 	border-right: 0;
 	background-color: white;
 }
 
-a{
-text-decoration: none;
-color: black;	
+/* ----- Just for the demo, you can leave this out ----- */
+
+body{
+	font-family: Helvetica, arial, sans-serif;
+	font-size: 13px;	
+	background-image: url(examples/img/bg.png);
 }
 
+a{
+	text-decoration: none;
+	color: black;	
+}
+
+
+#wrapper{
+	width: 615px;
+	margin: 0 auto;	
+	margin-bottom: 35px;
+}
+
+h1, p{
+text-align: center;	
+}
