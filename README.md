@@ -28,4 +28,4 @@ contentclass: 'tinycontent' // change to your liking
 ========
 
 Created By:
-Gerben Schmidt, zomp.nl
+Gerben Schmidt, http://www.zomp.nl
